@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: cursive;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 247, 248);
+}
+section{
+    width: 100%;
+    
+}
+.header .master{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.header .master .logo img{
+    height: 3rem;
+    margin-left: 5px;
+}
+.header .master .navbar a{
+    margin-left: 3rem;
+    color: black;
+    font-size: 20px;
+}
+.Home{
+    min-height: 39rem;
+    background-image: url(image/sec1/home-bg.jpg);
+    background-size: cover;
+
+}
+
+.lady h1{
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 13rem;
+    margin-left: 13rem;
+}
+
+.lady p{
+    height: 50px;
+    width: 400px;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    color: black;
+    font-size: larger;
+    line-height: 2rem;
+    
+}
+.lady button{
+    height: 50px;
+    width: 130px;
+    display: block;
+    margin-top: 7rem;
+    margin-left: 13rem;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    background-color: burlywood;
+}
+.About{
+    min-height: 37rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+
+}
+
+.About .phone img{
+    height: 130%;
+    width: 130%;   
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.About .boy{
+    align-items: center;
+    text-align: center;
+}
+.About .boy h1{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.About .boy p{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.About .boy button{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.About .boy button:hover{
+    color: burlywood;
+}
+
+.Facility .side{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.Facility .side img{
+    height: 2.5rem;
+    margin-top: 11rem;
+}
+.Facility .side h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.Facility .win{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.Facility .win .hole{
+    text-align: center;
+}
+.Facility .win img{
+    margin-top: 2rem;
+    height: 5rem;
+}
+.Facility .win .hole h1{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+}
+.Facility .win .hole p{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+}
+
+.Menu .left{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Menu .left img{
+    margin-top: 5.9rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Menu .left h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.slider{
+    height: 49vh;
+    width: 73%;
+    margin-top: 5%;
+    margin-left: 15%;
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+    height: 100%;
+    width: 125%;
+    animation: 15s slide infinite;
+    transition: linear;
+}
+@keyframes slide{
+    0%{
+        margin-left: 0%;
+    }
+    20%{
+        margin-left: 0%;
+    }
+    40%{
+        margin-left: -102%;
+    }
+    60%{
+        margin-left: -102%;
+    }
+}
+
+.Gallery .note{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Gallery .note img{
+    margin-top: 6rem;
+    height: 2.5rem;
+    
+}
+.Gallery .note h1{
+    font-size: 2rem;
+    color: black;
+}
+.pencil li{
+    height: 20%;
+    width: 20%;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    
+}
+.Gallery .pencil .m1{
+    height: 100%;
+    width: 100%;
+}
+.Gallery .pencil .m1 img{
+    height: 100%;
+    width: 110%;
+}
+.pencil img{
+    width: 105%;
+    height: 100%;
+}
+.rubber li{
+    height: 20%;
+    width: 20%;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+.rubber img{
+    width: 105%;
+    height: 100%;
+}
+
+.Contact .dog{
+    
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Contact .dog img{
+    margin-top: 6rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Contact .dog h1{
+    font-size: 2rem;
+    color: black;
+}
+.Contact .pubg{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.Contact .pubg .jeep img{
+    width: 22rem;
+    height: 22rem;
+}
+.Contact .pubg form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem 0;
+    margin-left: 15%;
+    border: 2px solid black;
+}
+.Contact .pubg form h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    margin-left: 45%;
+    color: black;
+    text-transform: uppercase;
+}
+.Contact .pubg form .color{
+    margin-left: 50%;
+    padding: 5px;
+}
+footer{
+    min-height: 38rem;
+}
+.Blog .boom{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    margin-left: 15%;
+    padding-top: 9rem;
+}
+.Blog .boom .love i{
+    background-color: chocolate;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-left: 10%;
+}
+
+.Blog .boom .love h1{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+}
+.Blog .boom .love .sri{
+    
+    width: 10rem;
+}
+.Blog .boom .love .sri-1{
+    width: 8rem;
+}
+.Blog .boom .love p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.line{
+    border: 5px solid black;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    width: 80%;
+}
+.Blog .mail{
+    margin-top: 2rem;
+    margin-left: 18rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+@media only screen and (min-width:350px) and (max-width:460px){
+    .header{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background-color: blue;
+        
+    }
+    .header .master .navbar a{
+        margin-left: 120px;
+    }
+    .Home{
+        background-position: center;
+        background-size: cover;   
+        width: 100%;     
+    }
+    .lady h1{
+        margin-left: 60px;
+        font-size: xx-large;
+    }
+    .lady p{
+        margin-left: 60px;
+        font-size: 20px;
+        width: 250px;
+    }
+    .lady button{
+        margin-top: 190px;
+        margin-left: 60px;
+    }
+    .About .phone img{
+        height: 100%;
+        width: 100%;   
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+    .About .boy{
+        align-items: center;
+        text-align: center;
+    }
+    .About .boy h1{
+        margin-top: 1rem;
+        margin-left: 10px;
+    }
+    .About .boy p{
+        margin-top: 1rem;
+        margin-left: 10px;
+    }
+    .About .boy button{
+        margin-top: 2rem;
+        margin-left: 10px;
+        padding: 1rem;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .About .boy button:hover{
+        color: burlywood;
+    }
+    .Facility .side img{
+        margin-left: 5px;
+    }
+    .Facility .side h1{
+        margin-left: 5px;
+    }
+    .Facility .win{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .Menu .left img{
+        margin-left: 5px;
+    }
+    .Menu .left h1{
+        margin-left: 5px;
+    }
+    .pencil li{
+        height: 150px;
+        width: 150px;
+        display: inline-flex;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        
+    }
+    .rubber li{
+        height: 150px;
+        width: 150px;
+        display: inline-flex;
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+    .Gallery .note img{
+        margin-left: 5px;
+    }
+    .Gallery .note h1{
+        margin-left: 10px;
+    }
+    .Contact .pubg .jeep img{
+        width: 18rem;
+        height: 18rem;
+        margin-right: 10px;
+    }
+    .Contact .pubg form .box{
+        width: 80%;
+        padding: 1rem;
+        font-size: 1rem;
+        color: black;
+        margin: 1rem 0;
+        margin-left: 10%;
+        border: 2px solid black;
+    }
+    .Contact .pubg form h1{
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        color: black;
+        text-transform: uppercase;
+    }
+    .Contact .pubg form .color{
+        margin-left: 50%;
+        padding: 5px;
+    }
+    .slider{
+        height: 100%;
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 5%;
+        overflow: hidden;
+    }
+    .slide{
+        display: flex;
+        height: 100%;
+        width: 125%;
+        animation: 15s slide infinite;
+        transition: linear;
+    }
+    @keyframes slide{
+        0%{
+            margin-left: 0%;
+        }
+        20%{
+            margin-left: 0%;
+        }
+        40%{
+            margin-left: -260%;
+        }
+        60%{
+            margin-left: -360%;
+        }
+        80%{
+            margin-left: -460%;
+        }
+        100%{
+            margin-left: -460%;
+        }
+    }
+    
+    
+    .pubg .jeep{
+        margin-left: 15%;
+    }
+    .boom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50%;
+    }
+    .line{
+        width: 60%;
+        margin-left: 65px;
+    }
+    .Blog .mail{
+        margin-top: 5px;
+        margin-left: 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:770px) and (max-width:1024px){
+    .header .master .navbar a{
+        margin-left: 1rem;
+        color: black;
+        font-size: 20px;
+    }
+    .About .phone img{
+        margin-left: 100px;
+    }
+    .pencil li{
+        margin-left: 70px;
+    }
+    .rubber li{
+        margin-left: 70px;
+    }
+    .pubg .jeep img{
+        margin-left: 190px;
+    }
+    .slider{
+        height: 49vh;
+        width: 73%;
+        margin-top: 5%;
+        margin-left: 15%;
+        overflow: hidden;
+    }
+    .slide{
+        display: flex;
+        height: 100%;
+        width: 125%;
+        animation: 15s slide infinite;
+        transition: linear;
+    }
+    @keyframes slide{
+        0%{
+            margin-left: 0%;
+        }
+        20%{
+            margin-left: 0%;
+        }
+        40%{
+            margin-left: -150%;
+        }
+        60%{
+            margin-left: -250%;
+        }
+    }
+    .Contact .pubg form .box{
+        width: 85%;
+        padding: 1rem;
+        font-size: 1rem;
+        color: black;
+        margin: 1rem 0;
+        margin-left: 15%;
+        border: 2px solid black;
+    }
+    .Blog .boom{
+        margin-left: 10px;
+        gap: 30px;
+    }
+    .line{
+        margin-left: 70px;
+    }
+    .Blog .mail{
+        margin-top: 1rem;
+        margin-left: 5rem;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
